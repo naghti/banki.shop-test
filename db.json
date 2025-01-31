@@ -1,0 +1,43 @@
+{
+  "products":[
+    {
+      "image":"Birth of Venus.png",
+      "name":"Рождение Венеры",
+      "author":"Сандро Ботичелли",
+      "price":"1 000 000 $",
+      "previous-price":"2 000 000 $",
+      "sold":false,
+      "available":true
+
+    },
+    {
+      "image":"The Last Supper.png",
+      "name":"Тайная вечеря",
+      "author":"Леонардо да Винчи",
+      "price":"3 000 000 $",
+      "previous-price":"",
+      "sold":false,
+      "available":true
+
+    },
+    {
+      "image":"Creation of Adam.png",
+      "name":"Сотворение Адама",
+      "author":"Микеланджело",
+      "price":"5 000 000 $",
+      "previous-price":"6 000 000 $",
+      "sold":false,
+      "available":true
+
+    },
+    {
+      "image":"anatomy lesson.png",
+      "name":"Урок анатомии",
+      "author":"Рембрандт",
+      "price":"",
+      "previous-price":"",
+      "sold":false,
+      "available":false
+    }
+  ]
+}

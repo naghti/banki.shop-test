@@ -1,0 +1,61 @@
+@import "./resetStyle";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  line-height: 150%;
+}
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+h2 {
+  font-weight: 400;
+  font-size: 18px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 16px;
+}
+h4 {
+  font-weight: 700;
+  font-size: 14px;
+}
+h5 {
+  font-weight: 400;
+  font-size: 14px;
+}
+h6 {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+button {
+  height: 48px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  background: #403432;
+  font-family: "Merriweather", serif;
+  color: #f4f6f9;
+  * {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  &:hover {
+    background: #776763;
+  }
+  &:disabled {
+    background: #c1b4b1;
+  }
+}
+.in-the-basket {
+  background: #5b3a32;
+}
